@@ -14,7 +14,7 @@ jobs:
                 fetch-depth: 0
     
           - name: Qualys GitHub actions for Web Application Scanning
-            uses: Qualys/github-action-qwas@v1.1.0
+            uses: Qualys/github-action-qwas@v1.2.0
             id: was
             with:
               API_SERVER: ${{ vars.API_SERVER }}
